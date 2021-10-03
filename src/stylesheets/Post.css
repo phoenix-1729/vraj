@@ -1,0 +1,99 @@
+.post {
+    /* border: 2px solid; */
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.postmain {
+    padding: 5px;
+    margin: 5px;
+}
+
+.postbox {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #65676B;
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid var(--vraj-background);
+}
+
+.imag1 {
+    min-width: 50px;
+    height: 50px;
+    background: url(https://www.facebook.com/images/fb_icon_325x325.png);
+    background-position: 80% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.post-text {
+    flex-grow: 1;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 30px;
+}
+
+.post-text:hover {
+    background-color: #CCD0D5;
+}
+
+.post-text>h2 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #65676B;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    /* margin-bottom: 2px; */
+    /* margin-right: 20px; */
+}
+
+.posttypes {
+    display: flex;
+    margin-top: 4px;
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.posttype {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.posttype:hover {
+    /* background-color: #F6F6F6; */
+    border-radius: 15px;
+    color: var(--vraj-color);
+    transition: color 100ms ease-out;
+    background-color: var(--vraj-background-d);
+}
+
+.posttype>.MuiSvgIcon-root {
+    color: rgb(102, 214, 10);
+    padding: 10px;
+}
+
+.lcolor {
+    color: rgb(255, 153, 0) !important;
+}
+
+.ccolor {
+    color: rgb(0, 60, 255) !important;
+}
+
+.posttype>span {
+    font-weight: 500;
+    font-size: 18px;
+    color: #65676B;
+    margin-right: 15px;
+}

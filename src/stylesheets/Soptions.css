@@ -1,0 +1,27 @@
+.soptions {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.soptions:hover {
+    /* background-color: #F6F6F6; */
+    border-radius: 15px;
+    color: var(--vraj-color);
+    transition: color 100ms ease-out;
+    background: linear-gradient( to right, var(--vraj-color-d) 3px, 3px, var(--vraj-background-d));
+}
+
+.soptions>.MuiSvgIcon-root {
+    padding: 20px;
+}
+
+.soptions>h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.soptions--active {
+    color: var(--vraj-color);
+}

@@ -1,0 +1,43 @@
+.mainbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* height: fit-content;
+    width: fit-content; */
+}
+
+.mainbox:hover {
+    /* background-color: #F6F6F6; */
+    border-radius: 40px;
+    background-color: aliceblue;
+}
+
+.imag {
+    /* display: inline-block !important; */
+    width: 50px !important;
+    height: 50px !important;
+    /* background: url(https://www.facebook.com/images/fb_icon_325x325.png); */
+    /* background-position: 50% 50% !important; */
+    /* background-size: cover !important; */
+    border-radius: 50% !important;
+    margin: 10px !important;
+}
+
+.user {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.username {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6e7e7d;
+}
+
+.vicon {
+    margin: 10px;
+}

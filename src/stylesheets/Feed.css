@@ -1,0 +1,4 @@
+.feed {
+    border-right: 1px solid var(--vraj-background);
+    flex: 0.7;
+}
