@@ -3,6 +3,10 @@ body {
     --vraj-color-d: #e7005d;
     --vraj-background: #E7E0C9;
     --vraj-background-d: #F6F6F6;
+    --vraj-cpallete1: #264653;
+    --vraj-cpallete2: #2A9D8F;
+    --vraj-cpallete3: #F4A261;
+    --vraj-cpallete4: #E76F51;
 }
 
 .app {
